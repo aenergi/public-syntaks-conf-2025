@@ -27,6 +27,10 @@ This structure ensures modularity and ease of navigation for users and contribut
 
 ## Setting Up the Environment
 
+### Recommended Development Environment
+
+We recommend using [Visual Studio Code (VS Code)](https://code.visualstudio.com/) as your primary editor for this project. The instructions described in this README assume you are working within VS Code. Using other editors may require additional configuration or steps not covered here.
+
 ### Installing the `uv` Package Manager
 
 `uv` is a package manager used in this project to manage dependencies and virtual environments. To install `uv`, follow these steps:
