@@ -33,12 +33,12 @@ This structure ensures modularity and ease of navigation for users and contribut
 
 1. **On Linux/macOS:**
    ```bash
-   curl -sSL https://install.uv.tools | bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 2. **On Windows:**
    Open PowerShell as Administrator and run:
    ```powershell
-   iwr -useb https://install.uv.tools | iex
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
    ```
 
 After installation, verify that `uv` is installed by running:
