@@ -87,7 +87,7 @@ def is_violent(text: str, threshold: float = 0.0, endpoint: Optional[str] = None
         bool: True if the text is considered violent, False otherwise.
     """
     # Use the provided endpoint or fetch it from the environment
-    endpoint = endpoint or os.environ.get("AZURE_COGNITIVE_SERVICES")
+    endpoint = endpoint or os.environ.get("AZURE_CONTENT_SAFETY_ENDPOINT")
     if not endpoint:
         raise ValueError("The Azure Content Safety endpoint must be provided or set in the 'AZURE_COGNITIVE_SERVICES' environment variable.")
 
