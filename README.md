@@ -27,18 +27,22 @@ This structure ensures modularity and ease of navigation for users and contribut
 
 ## Setting Up the Environment
 
+### Recommended Development Environment
+
+We recommend using [Visual Studio Code (VS Code)](https://code.visualstudio.com/) as your primary editor for this project. The instructions described in this README assume you are working within VS Code. Using other editors may require additional configuration or steps not covered here.
+
 ### Installing the `uv` Package Manager
 
 `uv` is a package manager used in this project to manage dependencies and virtual environments. To install `uv`, follow these steps:
 
 1. **On Linux/macOS:**
    ```bash
-   curl -sSL https://install.uv.tools | bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 2. **On Windows:**
    Open PowerShell as Administrator and run:
    ```powershell
-   iwr -useb https://install.uv.tools | iex
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
    ```
 
 After installation, verify that `uv` is installed by running:
