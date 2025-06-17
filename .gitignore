@@ -95,6 +95,3 @@ data/embeddings/*
 
 # macOS
 .DS_Store
-
-# VSCode settings
-.vscode/

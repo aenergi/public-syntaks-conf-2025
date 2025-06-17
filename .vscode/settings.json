@@ -1,0 +1,10 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    // Add the "src" folder to the Python path for Jupyter notebooks
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}",
+    ],
+    // Set the default working directory for Jupyter notebooks to the workspace root
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
+}
